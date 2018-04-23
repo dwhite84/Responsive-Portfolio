@@ -1,0 +1,166 @@
+#name{ 
+   background-color: black;
+    float: left;
+    padding:0px auto;
+    margin-left: 250px;
+    margin-top:0px;
+    height: 100px;
+    margin-bottom: 0px;
+    color: burlywood;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+
+    
+ 
+}
+
+#page-links{
+    float: right;
+    padding:0px auto;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top:40px;
+    margin-right: 250px;
+    font-size: 20px;
+
+}
+
+h2{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#photo{
+    float: left;
+    padding: 0px auto;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 33px;
+    margin-right: 250px;
+    margin-left: 250px;
+    background-color: white;
+    font-size:16px;
+    font-style:"Times New Roman", Times, sans-serif;
+  
+    
+}
+body{
+    background-image: url("https://noupe.com/img/beautiful-background-4.jpg");
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.footer {
+    position: fixed;
+    height:5%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+
+}
+
+header{
+    background-color: white;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    resize: vertical;
+}
+
+[submit] {
+    background-color: #4CAF50;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.image{
+
+    float: left;
+    padding: 0px auto;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 250px;
+    margin-left: 250px;
+    background-color: white;
+
+}
+
+p,h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+.box{
+   
+    width: 800px;
+    height: 500px;
+    background-color: gray;
+    margin: auto;
+    width: 60%;
+    border: 3px solid black;
+    padding: 10px;
+    margin-left: 250px;
+}
+
+.box1{
+
+    position: relative;
+    width:200px;
+    height:200px;
+    margin: 0.15% 0.15%;
+    margin-left: 47px;
+
+}
+
+@media screen and (max-width: 980px) {
+    body {
+      background-color: blue;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: green;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    body {
+      background-color:orange;
+    }
+  }
